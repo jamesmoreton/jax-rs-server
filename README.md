@@ -3,7 +3,7 @@
 Simple Java REST API interface using [JAX-RS](https://en.wikipedia.org/wiki/Jakarta_RESTful_Web_Services).
 
 - JAX-RS (Jersey) REST server
-- Compiles & runs under Java 14
+- Compiles & runs under Java 15
 - Built with Maven
 - Google Guice as dependency injection framework
 
@@ -26,7 +26,7 @@ mvn exec:java -Dexec.mainClass=com.jamesmoreton.ServerMainline
 curl -X POST 'http://localhost:1234/api/v1/users' -H 'Content-Type: application/json' --data-raw '{
     "userType": "BASIC",
     "dateOfBirth": "2000-01-01",
-    "countryCode": null
+    "countryCode": "GB"
 }'
 ```
 
