@@ -3,7 +3,7 @@
 Simple Java REST API interface using [JAX-RS](https://en.wikipedia.org/wiki/Jakarta_RESTful_Web_Services).
 
 - JAX-RS (Jersey) REST server
-- Compiles & runs under Java 15
+- Compiles & runs under Java 17
 - Built with Maven
 - Google Guice as dependency injection framework
 
